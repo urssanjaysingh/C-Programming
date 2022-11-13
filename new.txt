@@ -1,0 +1,2 @@
+C is a fun programming language.
+And, I love using C language
