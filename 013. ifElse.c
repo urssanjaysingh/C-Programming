@@ -6,12 +6,12 @@ int main(){
     printf("Enter your age: ");
     scanf("%d",&age);
 
-    if(age >= 18){
+    if(age > 120 || age < 0)
+        printf("Invalid Age");
+    else if(age >= 18)
         printf("You are eligible to vote");
-    }
-    else{
+    else
         printf("Sorry, you are not eligible to vote");
-    }
 
     return 0;
 }
